@@ -1,0 +1,35 @@
+body {
+    max-width: 1024px;
+    padding-top: 0%;
+    padding-bottom: 5%;
+    background-color: red;
+    margin: 0 auto;
+}
+
+#coolFont {
+    font-family: 'Shrikhand', cursive;
+    font-size: 60px;
+    color: #9A2617;
+}
+
+#topHeight {
+    padding-top: 2%;
+}
+
+button{
+    display:block;
+    width:50%;
+    height:20%;
+    margin: 0 auto;
+    border:none;
+    cursor: pointer;
+    background:transparent;
+    font-size: 42px;;
+  }
+  button:hover {
+    border:2px solid blue;
+    background: red;
+  }
+  img{
+    height:200px;
+  }
