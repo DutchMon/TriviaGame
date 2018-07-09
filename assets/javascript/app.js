@@ -108,9 +108,7 @@ var theGame = {
 
     $('#quiz').html('<h2>Congratulations! You are the World Cup Trivia Champion!</h2><br>');
     $('#count').html(theGame.count);
-    $('#quiz').append('<h3>Correct Answers: ' + theGame.correct + '</h3>');
-    $('#quiz').append('<h3>Incorrect Answers: ' + theGame.incorrect + '</h3>');
-    $('#quiz').append('<h3>Unanswered: ' + (questions.length - (theGame.incorrect + theGame.correct)) + '</h3>');
+    $('#quiz').append('<h3>Correct Answers: ' + theGame.correct + ' Incorrect Answers: ' + theGame.incorrect + ' Unanswered: '+ (questions.length - (theGame.incorrect + theGame.correct)) +'</h3>');
     $('#quiz').append('<br><button id="restart">Start Over?</button>');
   },
   clicked: function (x) {
